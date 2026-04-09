@@ -8,12 +8,14 @@ body {
 .main {
   display: flex;
   height: 100vh;
+  padding: 0.5rem;
 }
 
 .sidebar {
   background-color: #121212;
   width: 340px;
   border-radius: 1rem;
+  margin-right: 0.5rem;
 }
 
 .main-content {
@@ -31,13 +33,140 @@ body {
 
 .nav {
   display: flex;
+  margin: 2rem;
 }
 
 .badge {
   color: white;
   background-color: #232323;
-  border-radius: 50%;
+  border-radius: 30%;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 80px;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 5rem;
 }
 
 .badge i {
+}
+
+.badge:hover {
+  background-color: #383838;
+}
+
+.box {
+  background-color: #232323;
+  height: 8rem;
+  border-radius: 0.75rem;
+  margin: 0.75rem 0 1.75rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.box-p1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.box-p2 {
+  font-size: 0.85rem;
+}
+
+.badge-b {
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+  height: 2rem;
+  margin-top: 0.5rem;
+  padding: 0.25rem 1rem;
+}
+
+.badge-b:hover {
+  font-weight: 800;
+}
+
+.navbar {
+  height: 70px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  gap: 15;
+  align-items: center;
+}
+
+.spot-img {
+  padding-left: 30px;
+}
+
+.circle-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.circle-icon {
+  font-size: 25px;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 10px 15px;
+  border-radius: 30px;
+  width: 420px;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.nav-center input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.nav-right a:hover {
+  color: white;
+}
+
+.divider {
+  width: 1px;
+  height: 20px;
+  background-color: #b3b3b3;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.login-btn {
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.login-btn:hover {
+  transform: scale(1.05);
 }
