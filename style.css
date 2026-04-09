@@ -1,0 +1,43 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #000;
+  color: white;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #121212;
+  width: 340px;
+  border-radius: 1rem;
+}
+
+.main-content {
+  background-color: darkblue;
+  flex: 1;
+}
+
+.music-player {
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+  width: 200%;
+  height: 72px;
+}
+
+.nav {
+  display: flex;
+}
+
+.badge {
+  color: white;
+  background-color: #232323;
+  border-radius: 50%;
+}
+
+.badge i {
+}
