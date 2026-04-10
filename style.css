@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: #000;
   color: white;
+  overflow: hidden;
 }
 
 .main {
@@ -21,6 +22,7 @@ body {
 .main-content {
   background-color: darkblue;
   flex: 1;
+  overflow: auto;
 }
 
 .music-player {
@@ -91,6 +93,8 @@ body {
   background-color: #000;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .nav-left {
@@ -161,12 +165,26 @@ body {
 .login-btn {
   border: none;
   padding: 10px 22px;
-  border-radius: 20px;
+  border-radius: 30px;
   font-weight: bold;
   cursor: pointer;
   margin-left: 20px;
+  height: 50px;
+  font-size: 15px;
 }
 
 .login-btn:hover {
   transform: scale(1.05);
+}
+
+.nav-right {
+  margin-left: 271px;
+  white-space: nowrap;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
 }
