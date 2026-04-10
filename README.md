@@ -1,2 +1,2 @@
 # Spotify-Clone
-Making a Spotify-Clone with 20 songs
+Making a Spotify-Clone with 9 songs
